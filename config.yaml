@@ -11,7 +11,6 @@ defaultContentLanguageInSubdir: false
 enableMissingTranslationPlaceholders: true
 disableKinds:
   - taxonomy
-  - taxonomyTerm
 pygmentsCodeFences: true
 pygmentsUseClasses: false
 pygmentsUseClassic: false
@@ -98,10 +97,10 @@ menu:
       weight: 9
     - name: "Dashboard"
       url: "/docs/dashboard/"
-      weight: 10 
+      weight: 10
     - name: "Results"
       url: "/docs/results/"
-      weight: 11 
+      weight: 11
     - name: "Contribute"
       url: "/docs/contribute/"
-      weight: 100 
+      weight: 100

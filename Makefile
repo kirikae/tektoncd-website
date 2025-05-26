@@ -11,7 +11,8 @@ serve: sync
 	--buildFuture \
 	--disableFastRender \
 	--ignoreCache \
-	--liveReloadPort 8888 \
+	--liveReloadPort 1313 \
+	--bind 0.0.0.0 \
 	--watch
 
 .PHONY: production-build
